@@ -1,0 +1,47 @@
+/* Reset CSS */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container styles */
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #c7d7e6;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #a2b8cc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Drop shadow effect */
+  }
+  
+  /* Header styles */
+  h1 {
+    text-align: center;
+    color: #3a6182;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  form {
+    text-align: center;
+  }
+  
+  button {
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin: 0 10px; /* Add some margin between buttons */
+  }
+  
+  button:hover {
+    background-color: #3578c8;
+  }
+  

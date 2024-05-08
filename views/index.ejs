@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mindscribe-your online notemaking app</title>
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesheets/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Mindscribe <span class="small-title">-your online note making app</span>
+      </h1>
+      <form action="/create" method="post">
+        <input type="text" name="title" placeholder="Enter Title" required />
+        <textarea
+          name="content"
+          placeholder="Enter Note Content"
+          required
+        ></textarea>
+        <button type="submit">Create Note</button>
+      </form>
+    </div>
+    <div class="task-container">
+      <%if (files.length>0){%> <% files.forEach(function(val) {%>
+      <div class="task-card">
+        <div class="task-header">
+          <h3 class="task-title"><%= val %></h3>
+        </div>
+        <div class="task-footer">
+          <button
+            class="action-btn read-more-btn"
+            onclick="location.href=`/file/<%=val%>`"
+          >
+            Read
+          </button>
+          <button
+            class="action-btn edit-btn"
+            onclick="location.href=`/edit/<%=val%>`"
+          >
+            Edit Filename
+          </button>
+          <button class="action-btn delete-btn" onclick="location.href=`/delete/<%=val%>`">Delete</button>
+        </div>
+      </div>
+    </div>
+    <% }) %> <% } else { %>
+    <h3 class="no-tasks">No Task Yet.</h3>
+
+    <% } %>
+    <footer>&copy; Created By <a href="https://www.linkedin.com/in/adnan-qureshi-aa1517246">Adnan Qureshi</a></footer>
+
+  </body>
+</html>
