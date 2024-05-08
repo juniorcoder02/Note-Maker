@@ -14,7 +14,7 @@ This is a simple file management web application built using Express.js. It allo
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your_username/simple-file-management-app.git
+   git clone https://github.com/juniorcoder02/Note-Maker
 
 2. Navigate to the project directory:
 
@@ -39,22 +39,29 @@ This is a simple file management web application built using Express.js. It allo
 - path: Module for working with file paths.
 
 ## Usage
+
 1. Create a new text file:
-Navigate to the homepage (/).
-Enter a title and content for the file in the provided form.
-Click the "Create" button.
+
+    Navigate to the homepage (/).
+    Enter a title and content for the file in the provided form.
+    Click the "Create" button.
+
 2. View a file:
-Click on the title of the file from the list of files on the homepage.
+
+    Click on the title of the file from the list of files on the homepage.
+
 3. Edit a file:
-Click on the "Edit" button next to the file you want to edit.
-Enter the new title for the file in the provided form.
-Click the "Save" button.
+
+    Click on the "Edit" button next to the file you want to edit.
+    Enter the new title for the file in the provided form.
+    Click the "Save" button.
+
 4. Delete a file:
-Click on the "Delete" button next to the file you want to delete.
+    Click on the "Delete" button next to the file you want to delete.
 
 
 ## Contributing
-Contributions are welcome! If you'd like to contribute to this project, please follow the standard GitHub workflow:
+    **Contributions are welcome! If you'd like to contribute to this project, please follow the standard GitHub workflow:**
 
 1. Fork the repository.
 2. Create a new branch: git checkout -b feature/your-feature-name
@@ -64,4 +71,4 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 6. Submit a pull request.
 
 ## License
-This project is licensed under the MIT License.
+    This project is licensed under the MIT License.
