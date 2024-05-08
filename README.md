@@ -23,8 +23,8 @@ This is a simple file management web application built using Express.js. It allo
 
 3. install dependencies:
 
-  ```bash
-  npm install
+   ```bash
+   npm install
 
 4. start the server
 
@@ -33,10 +33,10 @@ This is a simple file management web application built using Express.js. It allo
 
 ## Dependencies
 
-- Express.js: Web framework for Node.js.
-- EJS: Templating engine for generating HTML markup with JavaScript.
-- vNode.js File System (fs): Module for interacting with the file system.
-- path: Module for working with file paths.
+- **Express.js**: Web framework for Node.js.
+- **EJS**: Templating engine for generating HTML markup with JavaScript.
+- **vNode**.js File System (fs): Module for interacting with the file system.
+- **path**: Module for working with file paths.
 
 ## Usage
 
