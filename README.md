@@ -18,18 +18,18 @@ This is a simple file management web application built using Express.js. It allo
 
 2. Navigate to the project directory:
 
-```bash
-cd simple-file-management-app
+   ```bash
+   cd simple-file-management-app
 
 3. install dependencies:
 
-```bash
-npm install
+  ```bash
+  npm install
 
 4. start the server
 
-```bash
-npm start
+    ```bash
+    npm start
 
 # Dependencies
 
