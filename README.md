@@ -31,14 +31,14 @@ This is a simple file management web application built using Express.js. It allo
     ```bash
     npm start
 
-# Dependencies
+## Dependencies
 
 - Express.js: Web framework for Node.js.
 - EJS: Templating engine for generating HTML markup with JavaScript.
 - vNode.js File System (fs): Module for interacting with the file system.
 - path: Module for working with file paths.
 
-# Usage
+## Usage
 1. Create a new text file:
 Navigate to the homepage (/).
 Enter a title and content for the file in the provided form.
@@ -53,7 +53,7 @@ Click the "Save" button.
 Click on the "Delete" button next to the file you want to delete.
 
 
-# Contributing
+## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow the standard GitHub workflow:
 
 1. Fork the repository.
@@ -63,5 +63,5 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 5. Push to the branch: git push origin feature/your-feature-name
 6. Submit a pull request.
 
-# License
+## License
 This project is licensed under the MIT License.
