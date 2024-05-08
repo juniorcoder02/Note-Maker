@@ -61,7 +61,7 @@ This is a simple file management web application built using Express.js. It allo
 
 
 ## Contributing
-    **Contributions are welcome! If you'd like to contribute to this project, please follow the standard GitHub workflow:**
+**Contributions are welcome! If you'd like to contribute to this project, please follow the standard GitHub workflow:**
 
 1. Fork the repository.
 2. Create a new branch: git checkout -b feature/your-feature-name
@@ -71,4 +71,4 @@ This is a simple file management web application built using Express.js. It allo
 6. Submit a pull request.
 
 ## License
-    This project is licensed under the MIT License.
+This project is licensed under the MIT License.
